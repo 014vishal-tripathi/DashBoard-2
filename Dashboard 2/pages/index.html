@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sedan+SC&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/efc246ce45.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <section class="left">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" title="Toggle menu">
+            
+            <div class="profile">
+                <div class="profilepicture">
+                    <img src="/multimedia/man.jpg" alt="profilepicture">
+                </div>
+                <div>
+                    <p>John Doe</p>
+                </div>
+                <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+            </div>
+            <div class="navbar">
+                <div class="nav">
+                    <i class="fa-solid fa-list-ul"></i>  
+                    <a href="#board">Dashboard</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-tags"></i>
+                    <a href="#data">Data</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-user"></i>
+                    <a href="#users">Users</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <a href="#schedule">Schedule</a>
+                </div>
+                <div class="nav">
+                    <i class="fa-solid fa-gear"></i>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            
+        </section>
+        <section class="right">
+            <header>
+                <h1>DashBoard</h1>
+                <div class="search-container">
+                    <input type="checkbox" id="search-toggle" class="search-toggle" title="Toggle search bar">
+                    <label for="search-toggle" class="search-icon"><i class="fa-solid fa-search"></i></label>
+                    <input type="search" placeholder="Search..." class="search-input">
+                </div>
+            </header>
+            <article id="board">
+                <div>
+                    <h3>Activities</h3>
+                    <p>May-June 2023</p>
+                </div>
+                <div>
+                    <img src="/multimedia/BarGraph.png" alt="">
+                </div>
+            </article>
+            <article id="data">
+                <h2>Dashboard Data</h2>
+                <div class="card-container">
+                    <div class="card1 card">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <p class="cardhead">Total Revenue</p>
+                        <p class="carddata">$456,553,563</p>
+                    </div>
+                    <div class="card2 card">
+                        <i class="fa-solid fa-tag"></i>
+                        <p class="cardhead">Total Transactions</p>
+                        <p class="carddata">1,450</p>
+                    </div>
+                    <div class="card3 card">
+                        <i class="fa-solid fa-thumbs-up"></i>
+                        <p class="cardhead">Total Likes</p>
+                        <p class="carddata">1,234</p>
+                    </div>
+                    <div class="card4 card">
+                        <i class="fa-solid fa-user"></i>
+                        <p class="cardhead"> Total Users</p>
+                        <p class="carddata">856</p>
+                    </div>
+                </div>
+            </article>
+            <article id="users">
+                <h2>User Intrections</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>No. of user</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>January</td>
+                            <td>1000</td>
+                        </tr>
+                        <tr>
+                            <td>February</td>
+                            <td>1200</td>
+                        </tr>
+                        <tr>
+                            <td>March</td>
+                            <td>1500</td>
+                        </tr>
+                        <tr>
+                            <td>April</td>
+                            <td>1250</td>
+                        </tr>
+                        <tr>
+                            <td>May</td>
+                            <td>1600</td>
+                        </tr>
+                </table>
+            </article>
+            <article id="schedule">
+                <div class="schedule-container">
+                    <div class="schedule-head">
+                        <h3>Today's Schedule</h3>
+                        <p>See all</p>
+                    </div>
+                    <div class="schedule-Details">
+                        <div>
+                            <p class="meet head">Meetings from suppliers from Kutta bali</p>
+                            <p class="meet details">14.00-15.00</p>
+                            <p class="meet details">at sunset road kutta bali</p>
+                        </div>
+                        <div>
+                            <p class="meet head">Meetings from suppliers from Suresh </p>
+                            <p class="meet details">15.00-16.00</p>
+                            <p class="meet details">at sunset road bali</p>
+                        </div>
+                        <div>
+                            <p class="meet head">Meetings from suppliers from Ajay</p>
+                            <p class="meet details">12.00-01.00</p>
+                            <p class="meet details">at sunset road</p>
+                    </div>
+                    <div>
+                            <p class="meet head">Meetings from suppliers from Encoprice</p>
+                            <p class="meet details">02.00-03.00</p>
+                            <p class="meet details">at morning on sohna road</p>
+                        </div>
+                        <div>
+                            <p class="meet head">Meetings from suppliers from JK ltd. </p>
+                            <p class="meet details">10.00-11.00</p>
+                            <p class="meet details">at morning tent house</p>
+                        </div>
+                        <div>
+                            <p class="meet head">Meetings from suppliers from Manager</p>
+                            <p class="meet details">18.00-19.00</p>
+                            <p class="meet details">at imperfection bar sohna road</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="contact">
+                <div class="contact-container">
+                    <h2>Contact Details</h2>
+                    <div class="contact-inner">
+                        <div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.628935559478!2d77.06757583957217!3d28.458872612924644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d18efa5ccce45%3A0x4989c96f55f988bd!2sUNITECH%20BUSINESS%20PARK%2C%20Sector%2017-B%2C%20Block%20F%2C%20South%20City%20I%2C%20Sector%2041%2C%20Gurugram%2C%20Haryana%20122003!5e0!3m2!1sen!2sin!4v1747255886352!5m2!1sen!2sin" 
+                            width="600" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="feedback-form">
+                            <h2>Feedback</h2>
+                            <form action="#" method="post">
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <br>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <br>
+                                <textarea name="message" rows="5" placeholder="Your Feedback" required></textarea>
+                                <br>
+                                <input type="submit" value="Submit Feedback">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+            <footer>
+                <div>
+                    <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div>
+                    <p>&copy; 2024 Your Company. All rights reserved.</p>
+                </div>
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
